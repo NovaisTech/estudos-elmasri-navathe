@@ -1,4 +1,4 @@
-```markdown
+
 # Projeto Banco de Dados: Esquema "Company" (Elmasri & Navathe)
 
 Este repositório contém a implementação prática do banco de dados relacional **"Company"**, baseada nos exemplos clássicos do livro *"Sistemas de Banco de Dados"* de Ramez Elmasri e Shamkant Navathe.
@@ -55,4 +55,3 @@ Este projeto implementa conceitos fundamentais de modelagem relacional:
 ---
 **Desenvolvido por:** Renato Altaides Novais  
 **Instituição:** Univesp (Engenharia de Computação)
-
