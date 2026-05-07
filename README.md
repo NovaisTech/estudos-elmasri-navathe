@@ -1,4 +1,4 @@
-```markdown
+
 # Projeto Banco de Dados: Esquema "Company" (Elmasri & Navathe)
 
 Este repositório contém a implementação prática do banco de dados relacional **"Company"**, baseada nos exemplos clássicos do livro *"Sistemas de Banco de Dados"* de Ramez Elmasri e Shamkant Navathe.
@@ -23,7 +23,8 @@ O projeto está organizado para seguir as melhores práticas de versionamento:
 ## 🚀 Como Executar
 
 ### 1. Configuração do Ambiente
-Para rodar este projeto, é necessário ter o Oracle 21c instalado. Recomenda-se a criação de um utilizador (Schema) específico para evitar poluição com tabelas de sistema:
+Para rodar este projeto, é necessário ter o Oracle 21c instalado.
+Recomenda-se a criação de um utilizador (Schema) específico para evitar poluição com tabelas de sistema:
 
 ```sql
 ALTER SESSION SET "_ORACLE_SCRIPT" = true;
