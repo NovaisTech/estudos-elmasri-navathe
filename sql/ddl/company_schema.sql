@@ -7,11 +7,9 @@ CREATE TABLE DEPARTAMENTO (
     UNIQUE (Dnome) 
     );
 
+SELECT * from DEPARTAMENTO;
 
 
-    SELECT * from DEPARTAMENTO;
-
-SELECT table_name FROM user_tables;
 
 CREATE TABLE FUNCIONARIO (
     Pnome VARCHAR2(15) NOT NULL,
@@ -27,6 +25,8 @@ CREATE TABLE FUNCIONARIO (
     PRIMARY KEY (cpf)
 );
 
+SELECT * FROM FUNCIONARIO;
+
 
 CREATE TABLE PROJETO (
     Projnome VARCHAR2(15) NOT NULL,
@@ -35,18 +35,10 @@ CREATE TABLE PROJETO (
     Dnum NUMBER(2) NOT NULL, 
     PRIMARY KEY (Projnumero),
     UNIQUE (Projnome)
-
 );
 
+SELECT * FROM PROJETO;
 
-
-
-SELECT  table_name from user_tables;
-
-SELECT table_name
-from user_tables
-where table_name NOT LIKE '%$%'
-AND table_name NOT IN ('HELP', 'SQLPLUS_PRODUCT_PROFILE');
 
 
 CREATE TABLE LOCALIZACAO_DEP (
@@ -55,6 +47,10 @@ CREATE TABLE LOCALIZACAO_DEP (
     PRIMARY KEY (Dnumero, Dlocal),
     CONSTRAINT fk_loc_dept FOREIGN KEY (Dnumero) REFERENCES DEPARTAMENTO(Dnumero)
 );
+
+SELECT * FROM LOCALIZACAO_DEP;
+
+
 
 CREATE TABLE DEPENDENTE (
     Fcpf CHAR(11) NOT NULL,
@@ -67,6 +63,6 @@ CREATE TABLE DEPENDENTE (
 
 );
 
-SELECT  table_name from user_tables;
 
-SELECT * FROM LOCALIZACAO_DEP;
+
+SELECT * FROM DEPENDENTE;
