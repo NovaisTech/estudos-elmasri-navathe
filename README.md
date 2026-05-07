@@ -53,5 +53,5 @@ Este projeto implementa conceitos fundamentais de modelagem relacional:
 * **Chaves Compostas:** Utilizadas em `LOCALIZACAO_DEP` e `DEPENDENTE`.
 
 ---
-**Desenvolvido por:** Renato Altaides Novais  
+**Desenvolvido por:** Renato Novais  
 **Instituição:** Univesp (Engenharia de Computação)
