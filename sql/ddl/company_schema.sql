@@ -68,3 +68,5 @@ CREATE TABLE DEPENDENTE (
 );
 
 SELECT  table_name from user_tables;
+
+SELECT * FROM LOCALIZACAO_DEP;
